@@ -126,7 +126,11 @@ layout: compress
           <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" aria-expanded="false" style="height: 1px;">
             <ul class="nav navbar-nav navbar-right">
               {% for i in site.urls %}
-                <li class=""><a class="page-scroll" href="{{ i.url }}">{{ i.text }}</a></li>
+                {% if page.link == i.url %}
+                  <li class="active"><a href="{{ i.url }}">{{ i.text }}</a></li>
+                {% else %}
+                  <li class=""><a href="{{ i.url }}">{{ i.text }}</a></li>
+                {% endif %}
               {% endfor %}
             </ul>
           </div>

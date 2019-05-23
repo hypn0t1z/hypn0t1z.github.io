@@ -6,6 +6,7 @@ about: I'm Programmer for Python & Django. I've made quite a few web apps, espec
 disqus_shortname: stackproblems
 google_analytics: UA-XXXXXXXX-Y
 avatar_url: /static/img/avatar.jpg
+baseurl: "/"
 
 enableTags: true
 tagarray: []
@@ -31,17 +32,15 @@ share:
   twitter_username: github.io
   fb_appid: 1749788565247320
 
+include:
+  - _pages
+
 urls:
     - text: Introduction
-      url: /about/
-    - text: Research interests
-      url: /about/
+      url: /pages/about/
     - text: Projects
-      url: /projects/
-    - text: Publications
-      url: /projects/
-    - text: Awards
-      url: /projects/
+      url: /pages/projects/
+    
     
     #- text: XML Feed
     #  url: /feed.xml
@@ -62,4 +61,4 @@ compress_html:
   endings: all
   ignore:
     #development
-    envs: ['production']
+    envs: ['development']

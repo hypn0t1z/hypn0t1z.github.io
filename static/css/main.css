@@ -33,10 +33,7 @@ a, a:link, a:active {
   text-decoration: none;
   color: #3fa757;
 }
-a:hover {
-  color: #B3B3B3;
-  text-decoration: underline;
-}
+
 
 /* Layout */
 .main-layout {
@@ -55,6 +52,13 @@ a:hover {
   content: "»";
   margin-right: .5em;
 }
+.navbar li a:hover {
+  color: #3fa757 !important;
+}
+.navbar-default .navbar-brand {
+  color: #3fa757 !important;
+}
+
 
 /* Content */
 div.content pre {
