@@ -61,4 +61,4 @@ compress_html:
   endings: all
   ignore:
     #development
-    envs: ['development']
+    envs: ['production']
