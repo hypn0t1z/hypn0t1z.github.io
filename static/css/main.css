@@ -179,9 +179,16 @@ div.col-sm-3 img.profile-avatar {
   .navbar-default a img.home-avatar {
     vertical-align: middle;
     float: left;
-    margin: 2% 0;
+    margin: 1.5% 0 0 -2.5%;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-default a img.home-avatar {
+    vertical-align: middle;
+    float: left;
+    margin: 0;
   }
   .navbar-default .navbar-brand {
-    margin: 2%;
+    margin-left:0 !important;
   }
 }
