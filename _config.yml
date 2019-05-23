@@ -61,4 +61,5 @@ compress_html:
   comments: ["<!-- ", " -->"]
   endings: all
   ignore:
+    #development
     envs: ['production']

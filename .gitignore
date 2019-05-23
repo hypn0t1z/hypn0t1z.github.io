@@ -1,3 +1,4 @@
 #Ignore file
 Gemfile.lock
 _site
+_config.yml
