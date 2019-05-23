@@ -37,7 +37,13 @@ include:
 
 urls:
     - text: Introduction
-      url: /pages/about/
+      url: /pages/about/ 
+    - text: Page One
+      url: /pages/page_1/
+    - text: Page Tow
+      url: /pages/page_2/
+    - text: Page Three
+      url: /pages/page_3/
     - text: Projects
       url: /pages/projects/
     
@@ -61,4 +67,5 @@ compress_html:
   endings: all
   ignore:
     #development
+    #production
     envs: ['production']
